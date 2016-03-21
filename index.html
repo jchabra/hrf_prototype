@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <title>HRF Prototype</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <!--[if (gt IE 8) | (IEMobile)]><!-->
+  <link rel="stylesheet" href="css/unsemantic-grid-responsive.css" />
+  <!--<![endif]-->
+<!--[if (lt IE 9) & (!IEMobile)]>
+  <link rel="stylesheet" href="./assets/stylesheets/ie.css" />
+  <![endif]-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/jquery.fullpage.css">
+  <link rel="icon" type="image/png" href="" />
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="fullpage">
+      <!-- ******** HEADER (above the fold) ******** -->
+      <div class="section mainHeader">
+        <div id="header">
+          <!-- BACKGROUND IMAGE SLIDER -->
+          <div class="slide" id="slide1">
+            <h1 class="grid-100 main-heading">BACK WATER</h1>
+            <h2>FEATURED ARTWORK FOR MARCH</h2>
+          </div>
+          <div class="slide" id="slide2">
+            <h1 class="grid-100 main-heading">HUDSON RIVER<br> 
+              <span>SUNSET SHADOWS</span></h1>
+            <h2>FEATURED ARTWORK FOR FEBRUARY</h2>
+          </div>
+          <!-- Everything else -->
+          <div class="grid-container">
+           <div class="container grid-100 mobile-grid-100">
+            <!-- LOGO -->
+            <div class="logo grid-25 mobile-grid-100">
+              <a href="index.html"><img src="images/hrfLogo.png" alt="Hudson River Foundation Logo"></a>
+            </div>
+            <!-- NAVIGATION -->
+            <div class="grid-75 mobile-grid-100 nav">
+              <nav>
+                <ul>
+                  <li class="mobile-grid-100"><a href="#">ABOUT</a></li>
+                  <li class="mobile-grid-100"><a href="#">FUNDING</a></li>
+                  <li class="mobile-grid-100"><a href="#">EVENTS</a></li>
+                  <li class="mobile-grid-100"><a href="#">NEWS</a></li>
+                  <li class="mobile-grid-100"><a href="data_api.html">OUR DATA</a></li>
+                  <li class="mobile-grid-100"><a href="#">CONTACT</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="feature mobile-grid-100">
+              <span><a href="http://app-demo.shorthand.com/export/93a57a1cec1443ddbeaa03d72d186a0a/index.html">VIEW ARTWORK > </a></span>
+            </div>
+          </div><!-- /.container  .grid-100 .mobile-grid-100-->
+        </div><!-- //.grid-container -->
+      </div><!-- /#header -->
+
+      <!-- ******** End of Header and Nav ******** -->
+
+      <!-- ******** STATS ******** -->
+      <section id="stats">
+        <div class="grid-container">
+          <div class="grid-20 mobile-grid-100">
+            <h5>CURRENT WATER TEMPERATURE</h5>
+            <img src="images/greenUpArrow.png" alt="Green Up Arrow">
+            <div class="stats_text">
+              <span class="waterTemp statNumber">44</span><span class="type"> degrees</span><br>
+              <span class="location">(Battery Park)</span>
+            </div>
+          </div>
+          <div class="grid-20 mobile-grid-100">
+            <h5>CURRENT WATER LEVEL</h5>
+            <img src="images/greenDownArrow.png" alt="Green Down Arrow">
+            <div class="stats_text">
+              <span class="waterLevel statNumber">0</span><span class="type"> ft, ref to MSL</span><br>
+              <span class="location">(Battery Park)</span>
+            </div>
+          </div>
+          <div class="grid-20 mobile-grid-100">
+            <h5>CURRENT WATER QUALITY</h5>
+            <img src="images/greenUpArrow.png" alt="Green Up Arrow">
+            <div class="stats_text">
+              <span class="waterQual">ACCEPTABLE</span><span class="type"> </span><br>
+              <span class="location">(Battery Park)</span>
+            </div>
+          </div>
+          <div class="grid-20 mobile-grid-100">
+            <h5>CURRENT AIR TEMPERATURE</h5>
+            <img src="images/greenUpArrow.png" alt="Green Up Arrow">
+            <div class="stats_text">
+              <span class="airTemp statNumber">59</span><span class="type"> degrees</span><br>
+              <span class="location">(Battery Park)</span>
+            </div>
+          </div>
+          <div class="grid-20 mobile-grid-100">
+            <h5>CURRENT VISIBILTY</h5>
+            <img src="images/greenDownArrow.png" alt="Green Down Arrow">
+            <div class="stats_text">
+              <span class="visibility statNumber">10.0</span><span class="type"> miles</span><br>
+              <span class="location">(Battery Park)</span>
+            </div>
+          </div>
+        </div> <!-- //.grid-container -->
+      </section>
+    </div><!--//.section -->
+    <!-- ******** END OF STATS ******** -->
+
+    <!-- ******** STORIES ******** -->
+    <div class="section fp-auto-height storySection">
+      <section id="stories">
+        <div class="grid-container">
+          <div class="slide" id="story1">
+            <div class="grid-50 mobile-grid-100 leftStory">
+              <img src="images/living_resources.png" alt="Living Resources Image">
+            </div>
+            <div class="grid-50 mobile-grid-100 rightStory">
+              <h3>MARCH 2016: FEATURED REPORT</h3>
+              <h4>LIVING RESOURCES</h4>
+              <p>Over the centuries, our estuary’s diverse habitats have been profoundly changed by development, as seen in the comparison of this rendering of what Manhattan probably looked like in the 1600s, with an actual current satellite image.</p>
+              <p class="small_text">1600s image by Marley Boyer, The Mannahatta Project and Wildlife Conservation Society; Recent satellite image by ESRI Imagery Basemap and ESRI Inc.</p>
+              <p><a href="#" class="link">Read the full report</a></p>
+            </div>
+          </div><!-- //.slide#story1 -->
+          <div class="slide" id="story2">
+            <div class="grid-50 mobile-grid-100 leftStory">
+              <img src="images/birds.png" alt="Living Resources Image">
+            </div>
+            <div class="grid-50 mobile-grid-100 rightStory">
+              <h3>FEBRUARY 2016: FEATURED REPORT</h3>
+              <h4>BIRDS: Helping Harbor Herons</h4>
+              <p>Dedicated scientists and community members formed the Harbor Herons Subcommittee in 2003 to better understand how these birds interact with the environment, what they need to thrive, and which factors threaten their livelihood.</p>
+              <p class="small_text">GREAT BLUE HERON in Jamaica Bay <br>Photo by Don Riepe</p>
+              <p><a href="#" class="link">Read the full report</a></p>
+            </div>
+          </div><!-- //.slide#story2 -->
+        </div><!--//.grid-container -->
+      </section>
+    </div><!--//.section -->
+    <!-- ******** END OF STORIES ******** -->
+
+    <!-- ******** DATA VIS ******** -->
+    <div class="section fp-auto-height">
+      <section id="dataVis">
+        <div class="grid-container">
+          <h3 class="grid-100 mobile-grid-100">An Update on the Ongoing Oyster Project</h3>
+          <h4 class="grid-100 mobile-grid-100">Anticipated Hudson Oyster Population</h4>
+          <img class="grid-100 mobile-grid-100" src="images/sample_graph.png" alt="Sample Data Visualization Graph">
+          <!-- <div id="d3"></div> -->
+          <h5 class="grid-100 mobile-grid-100">Follow the Project on twitter @hrfoundation with #SaveTheOysters</h5>
+        </div>
+      </section>
+    </div><!--//.section -->
+    <!-- ******** END OF DATA VIS ******** -->
+    <!-- ******** SOCIAL MEDIA  ******** -->
+    <div class="section fp-auto-height">
+      <section id="socialMedia">
+        <div class="grid-container">
+          <h3 class="grid-100 mobile-grid-100">Your Hudson River</h3>
+          <h4 class="grid-100 mobile-grid-100">Be a part of your Hudson Community! Tag your Hudson experiences with #HudsonRiver</h4>
+
+          <!-- image 1 -->
+          <div class="grid-25 mobile-grid-100">
+            <img class="social_icon" src="images/white_instagram.png" alt="White Instragram Icon">
+            <img src="images/hudsonPride/image1.jpg" alt="Hudson Pride Social Image 1">
+            <div class="social_description">
+              <span>Sunset at Freedom Tower. #sunset #newyorkcity #freedomtower #worldtradecenter #hudsonriver #colorful</span>
+            </div>
+          </div>
+          <!-- image 2 -->
+          <div class="grid-25 mobile-grid-100">
+            <img class="social_icon" src="images/white_twitter.png" alt="White Twitter Icon">
+            <img src="images/hudsonPride/image2.jpg" alt="Hudson Pride Social Image 1">
+            <div class="social_description">
+              <span>Along the Hudson River. #hudsonriver #hudsonvalle #landscape #landscapephotography #riverside #nystate #travel</span>
+            </div>
+          </div>
+          <!-- image 3 -->
+          <div class="grid-25 mobile-grid-100">
+            <img class="social_icon" src="images/black_instagram.png" alt="Black Instragram Icon">
+            <img src="images/hudsonPride/image3.jpg" alt="Hudson Pride Social Image 1">
+            <div class="social_description">
+              <span>#seakayaking #outdoorwomen #eastriver #hudsonriver #nicewaytoseemanhattan #nycadventure</span>
+            </div>
+          </div>
+          <!-- image 4 -->
+          <div class="grid-25 mobile-grid-100">
+            <img class="social_icon" src="images/white_tumblr.png" alt="White Tumblr Icon">
+            <img src="images/hudsonPride/image4.jpg" alt="Hudson Pride Social Image 1">
+            <div class="social_description">
+              <span>"frozen Hudson River" #ny #nyc #newyork #newyorkcity #ilovenyc #IheartNyc #snow #Winter2015 #hudsonriver</span>
+            </div>
+          </div>
+        </div> <!-- //.grid-container -->
+      </section>
+    </div><!-- //.section -->
+    <!-- ******** END OF  SOCIAL MEDIA  ******** -->
+
+    <!-- ******** FOOTER ******** -->
+    <div class="section fp-auto-height">
+      <footer>
+        <div class="grid-container">
+          <div class="grid-25 mobile-grid-100">
+            <ul>
+              <li>ABOUT</li>
+              <li>FUNDING</li>
+              <li>EVENTS</li>
+              <li>NEWS</li>
+              <li>OUR DATA</li>
+              <li>CONTACT US</li>
+            </ul>
+          </div>
+          <div class="grid-25 mobile-grid-100">
+            <ul>
+              <li>FOLLOW US</li>
+              <li class="alignleft"><img src="images/white_facebook.png" alt="facebook"></li>
+              <li class="alignleft"><img src="images/white_instagram.png" alt="Instagram"></li>
+              <li class="alignleft"><img src="images/white_twitter.png" alt="twitter"></li>
+              <li class="alignleft"><img src="images/white_tumblr.png" alt="tumblr"></li>
+            </ul>
+          </div>
+          <div class="grid-25 mobile-grid-100">
+            <ul>
+              <li>CHECK OUT LOCAL EVENTS</li>
+              <li>google calendar</li>
+              <li>meetup</li>
+            </ul>
+          </div>
+          <div class="grid-25 mobile-grid-100">
+            <ul>
+              <li>SIGN UP FOR OUR NEWSLETTER</li>
+              <li><input type="text" name="email" placeholder="EMAIL ADDRESS"></li>
+            </ul>
+          </div>
+        </div><!-- //.grid-container -->
+      </footer>
+    </div><!-- //.section.fp-auto-height-->
+    <!-- ******** END OF FOOTER ******** -->
+  </div><!--// #fullpage -->
+</div><!-- //#wrapper -->
+<script src="javascripts/jquery-2.1.3.min.js"></script>
+<script src="javascripts/jquery-2.2.1.js"></script>
+<script src="javascripts/jquery.fullpage.js"></script>
+<script src="javascripts/script.js"></script>
+<script src="javascripts/d3.js"></script>
+<script src="javascripts/graph.js"></script>
+</body>
+</html>
