@@ -8,7 +8,7 @@ $(document).ready(function() {
     afterRender: function () {
       setInterval(function () {
         $.fn.fullpage.moveSlideRight();
-      }, 5000);
+      }, 6000);
     }
   });
 });
